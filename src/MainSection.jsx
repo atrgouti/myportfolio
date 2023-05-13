@@ -1,7 +1,7 @@
 import "./MainSectionStyle.css"
 import MyNameLogo from "../Photos/MyNameLogo.png"
 import download from "../Photos/download.png"
-import main from "../Photos/main.png"
+import bilal from "../Photos/bilal.png"
 
 import React, { useRef, useEffect } from 'react';
 
@@ -67,7 +67,7 @@ export default function MainSection(){
                 </span>
             </div>
             <div className="me" ref={targetRef}>
-                <img src={main} alt="" />
+                <img src={bilal} alt="" />
             </div>
         </div>
         <div className="lineOrange"></div>
